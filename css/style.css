@@ -1,4 +1,43 @@
-body {
-  background-color: gray;
-  font-size: 130%;
+h1 {
+  font-size: 200%;
+  font-family: Lucida Console;
+  text-align: center;
+}
+
+p {
+  border: 3px solid black;
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  text-align: center;
+}
+#p1 {
+  background-color: #A52A2A;
+  padding-top: 5px;
+  font-weight: bold;
+}
+#p2 {
+  background-color: #DEB887;
+  padding-top: 5px;
+  font-weight: bold;
+}
+#p3 {
+  background-color: #5F9EA0;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+div.abs {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+div.rel{
+  position:relative;
+
 }
